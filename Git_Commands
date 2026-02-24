@@ -1,0 +1,4 @@
+cd /mnt/data/MathOnco
+git add -A
+git commit -m "Add new folder <name>"
+git push
