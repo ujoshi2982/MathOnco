@@ -1,0 +1,30 @@
+## Create a new tmux session
+
+tmux new -s 10L_sim
+
+## Detach from tmux session
+
+Ctrl + b, then d
+
+## Reattach to a tmux session
+
+tmux attach -t 10L_sim
+
+##  List all tmux sessions
+
+tmux ls
+
+## Run MATLAB script inside tmux (CLI mode)
+
+"/home/rrs/Matlab_2020/bin/matlab" -nodisplay -nosplash -nodesktop -r "cd('/home/rrs/Maths_2025/Matlab_2025/MCMC_new/Model1'); MCMC_MainScript; exit"
+
+## Kill a tmux session
+
+tmux kill-session -t session_name
+
+### Kill all tmux sessions
+
+tmux kill-server
+
+
+
